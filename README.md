@@ -4,8 +4,12 @@
 
 ## Check input character is vowel or not.
 
+```
 $ lex vowel.l
-# If you using flex use -lfl.
+```
+
+## If you using flex use -lfl.
+```
 $ gcc lex.yy.c -ll
 $ ./a.out
 a
@@ -18,4 +22,4 @@ E
 E: is vowel
 i
 i: is vowel
-
+```

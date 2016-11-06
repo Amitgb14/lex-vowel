@@ -13,13 +13,13 @@ $ lex vowel.l
 $ gcc lex.yy.c -ll
 $ ./a.out
 a
-a: is vowel
+a: is vowel.
 b
-b: is not vowel
+b: is not vowel.
 c
-c: is not vowel
+c: is not vowel.
 E
-E: is vowel
+E: is vowel.
 i
-i: is vowel
+i: is vowel.
 ```
